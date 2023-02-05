@@ -1,0 +1,350 @@
+:root {
+  --button-background: #2f303a;
+  --body-color: rgba(117, 117, 117, 1);
+  --blue-color: #2196f3;
+  --blacklight-color: #212121;
+  --black-color: rgba(0, 0, 0, 1);
+  --grey-color: #757575;
+  --white-color: #ffffff;
+  --whitelight-color: #f5f4fa;
+  --red-color: red;
+  --whitestudio-color: rgba(255, 255, 255, 1);
+  --footercolor: #2f303a;
+  --color-body: #e5e5e5;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  background-color: var(--whitestudio-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+body {
+  background-color: var(--color-body);
+}
+.main-page,
+.portfolio {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-color);
+  color: var(--body-color);
+  width: 1600px;
+}
+
+.button1:hover,
+.button1:focus {
+  background: var(--button-background);
+}
+
+.mail:hover,
+.mail-down:hover,
+.mail-down:focus,
+.tel:hover,
+.tel:focus,
+.tel-down:focus,
+.tel-down:hover {
+  color: var(--red-color);
+}
+.mail-page1:hover,
+.mail-page1-down:hover {
+  color: var(--blue-color);
+}
+.studio {
+  color: var(--blacklight-color);
+  margin-left: 93px;
+}
+.studio:hover,
+.color-black:hover,
+.nav-black:hover {
+  color: var(--blue-color);
+  cursor: pointer;
+  font-weight: 500;
+}
+.color-black {
+  color: var(--blacklight-color);
+}
+.tel,
+.tel-down,
+.mail-down,
+.mail-page1,
+.mail-page1-down {
+  color: var(--grey-color);
+}
+
+h2 {
+  color: var(--blacklight-color);
+  font-weight: 700;
+}
+h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+h5,
+.size {
+  font-size: 14px;
+}
+h4 {
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--grey-color);
+  font-weight: 400;
+}
+.name-black {
+  color: var(--blacklight-color);
+  font-weight: 500;
+}
+.line-high {
+  line-height: 16px;
+  color: var(--blacklight-color);
+  font-weight: 700;
+}
+
+.line-low {
+  line-height: 24px;
+  color: var(--grey-color);
+  font-weight: 400;
+}
+.button1 {
+  color: var(--white-color);
+  background: var(--blue-color);
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  margin-left: 700px;
+  margin-top: 30px;
+}
+.button {
+  font-weight: 700;
+  margin-left: 452px;
+}
+.title_h1 {
+  color: var(--white-color);
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 44px;
+  margin-left: 452px;
+  width: 696px;
+  height: 120px;
+  padding-top: 200px;
+}
+address {
+  font-weight: 400;
+}
+.blue {
+  color: var(--blue-color);
+}
+.black {
+  color: var(--black-color);
+}
+.white {
+  color: var(--whitestudio-color);
+}
+.nav-black {
+  color: var(--blacklight-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.color-blue {
+  color: var(--blue-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.tel-page2 .mail-page2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.filter1 > .botton-filter:hover,
+.filter2 > .botton-filter:hover,
+.filter3 > .botton-filter:hover,
+.filter4 > .botton-filter:hover,
+.filter5 > .botton-filter:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  background: var(--blue-color);
+}
+.filter1,
+.filter2,
+.filter3,
+.filter4,
+.filter5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--blacklight-color);
+  background: var(--white-color);
+}
+.subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--blacklight-color);
+}
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+}
+footer {
+  background: var(--footercolor);
+}
+.container {
+  width: 1600px;
+  display: flex;
+}
+.filterss {
+  margin-top: 94px;
+  margin-left: 510px;
+}
+.projet1 {
+  margin-top: 56px;
+  margin-left: 215px;
+}
+.projet2 {
+  margin-top: 56px;
+  margin-left: 30px;
+}
+.projet3 {
+  margin-top: 56px;
+  margin-left: 30px;
+}
+.projet4 {
+  margin-top: 140px;
+  margin-left: 215px;
+}
+.projet5 {
+  margin-top: 140px;
+  margin-left: 30px;
+}
+.projet6 {
+  margin-top: 140px;
+  margin-left: 30px;
+}
+.projet7 {
+  margin-top: 140px;
+  margin-left: 215px;
+}
+.projet8 {
+  margin-top: 140px;
+  margin-left: 30px;
+}
+.projet9 {
+  margin-top: 140px;
+  margin-left: 30px;
+}
+.webstudio {
+  margin-left: 215px;
+  margin-top: 24px;
+}
+.webstudio2 {
+  margin-left: 215px;
+  margin-bottom: 9px;
+  padding-top: 60px;
+}
+.menu-nav,
+.group_1 {
+  margin-top: 32px;
+}
+.color-black {
+  margin-left: 93px;
+}
+.space {
+  margin-left: 46px;
+}
+.mail-page1 {
+  margin-top: 32px;
+  margin-left: 364px;
+}
+.tel {
+  margin-top: 32px;
+  margin-left: 50px;
+}
+.space1 {
+  margin-left: 8px;
+}
+.botton-filter {
+  width: 121px;
+  height: 38px;
+  border-radius: 4px;
+}
+.space_footerp {
+  margin-left: 215px;
+  margin-top: 9px;
+}
+footer {
+  width: 1600px;
+  height: 252px;
+}
+.mail-page1-down {
+  margin-left: 215px;
+  margin-top: 9px;
+}
+.tel-down {
+  margin-left: 215px;
+  margin-top: 9px;
+}
+.our_team_name {
+  margin-left: 695px;
+  margin-top: 94px;
+}
+.card1 {
+  margin-left: 215px;
+  margin-top: 50px;
+}
+.card2,
+.card3,
+.card4 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.space_team {
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.box1 {
+  margin-left: 215px;
+  margin-top: 50px;
+}
+.box2,
+.box3 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.what_we_do_title {
+  margin-left: 724px;
+  margin-top: 94px;
+}
+.feature1 {
+  margin-left: 215px;
+  margin-top: 94px;
+  width: 270px;
+  height: 101px;
+}
+.feature2,
+.feature3,
+.feature4 {
+  margin-left: 30px;
+  margin-top: 94px;
+  width: 270px;
+  height: 101px;
+}
+.title_index {
+  width: 1600px;
+  height: 600px;
+  background: var(--button-background);
+}
